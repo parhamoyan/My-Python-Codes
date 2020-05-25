@@ -1,4 +1,3 @@
-
 def matrix_converter(matrix):
     matrix = matrix[1:len(matrix)]
     level = 0
@@ -23,13 +22,14 @@ def matrix_converter(matrix):
                 i += 1
                 number += matrix[i]
             res.append(int(number))
+            number = ""
         i += 1
     return res
 
 #test :
-matrix = "[[1, [[19]]], [2, [3, [4]]]]"
+matrix = "[[1, [[13, 19]]], [112, [3, [4]]]]"
 print("input type =", type(matrix))
-print(matrix)
+print("input =", matrix)
 matrix = matrix_converter(matrix)
 print("output type =", type(matrix))
-print(matrix)
+print("output =", matrix)
