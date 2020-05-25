@@ -26,7 +26,7 @@ def matrix_converter(matrix):
         i += 1
     return res
 
-#test :
+# test :
 matrix = "[[1, [[13, 19]]], [112, [3, [4]]]]"
 print("input type =", type(matrix))
 print("input =", matrix)
