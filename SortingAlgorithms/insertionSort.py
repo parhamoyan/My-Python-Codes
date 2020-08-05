@@ -8,5 +8,5 @@ def insertionSort(alist):
         alist[pos+1] = key
 # test :   
 alist = [5,4,3,2,1]
-insertionSort (alist)
+insertionSort(alist)
 print(alist)
